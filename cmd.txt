@@ -1,0 +1,1 @@
+flutter2  pub run   --no-sound-null-safety build_runner build
