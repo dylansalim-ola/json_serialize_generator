@@ -10,3 +10,4 @@ TO
 ```
 Util.parseStr(json['title'])
 ```
+4. Replace back the g file into your flutter project
