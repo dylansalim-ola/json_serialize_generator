@@ -1,16 +1,12 @@
-# my_json_serializable_project
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# json_serialize_project
+## Steps to generate json serialize g file
+1. Add bean/model file to generate into the lib folder
+2. Run "flutter pub run build_runner build" in terminal
+3. Change the g dart file to null safety by replacing the
+```
+json['id'] as String 
+```
+TO
+```
+Util.parseStr(json['title'])
+```
